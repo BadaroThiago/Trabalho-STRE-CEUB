@@ -18,7 +18,7 @@ Utilizando o simulador Tinkercad (https://www.tinkercad.com/) realizamos o medid
 * 1 Resistor +
 * 2 Protoboards.
 
-## Link para o projeto: https://www.tinkercad.com/things/kwTE2V8wrlP-termometro-e-humidade-stre/editel?sharecode=f7Q3WWWUm60opxzeV_NRthVIzqjxsb_RJa04D8QeOug
+## Link para o projeto: https://www.tinkercad.com/things/8bb7APWXh9B-copy-of-protothread-termometro-e-humidade-stre/editel?sharecode=KphN9k4vlkM62aYAXCBpcgWQL6dVko2bBKhCuej_WTY
 
 # Conclusão
 
