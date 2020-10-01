@@ -1,5 +1,6 @@
 # Trabalho-STRE-CEUB
 Trabalho para a matéria Sistemas de Tempo Real e Embarcados do UniCeub
+Autores: Gabriel Arantes, Thiago Alberto, Phillipy Ferreira e Leonardo Siqueira
 
 # Introdução
 
