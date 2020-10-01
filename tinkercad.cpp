@@ -1,5 +1,5 @@
 /*Trabalho Pratico de Sistemas em Tempo Real e Embarcados
-Grupo: Thiago Oliveira, Gabriel Arantes, Phillipy Ferreira e Leonardo Siqueira
+Grupo: Thiago Oliveira, Phillipy Ferreira, Gabriel Arantes, Leonardo Siqueira
 Referências:
 http://www.arduino.cc/en/Tutorial/LiquidCrystal
 */
@@ -14,7 +14,7 @@ const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
 LiquidCrystal lcd(rs, en, d4, d5, d6, d7);
 //Inicializa variáveis do Termômetro
 float p_chuva = 0.00, v_umh = 0.00, v_tmp = 0.00;
-int umh = A0, tmp = A1;
+int hmh = A0, tmp = A1;
 
 void setup() {
   // set up the LCD's number of columns and rows:
@@ -22,7 +22,7 @@ void setup() {
 
   //Inicializa Termometro e Medidor de Humidade
   pinMode(tmp,INPUT);
-  pinMode(umh,INPUT);
+  pinMode(hmh,INPUT);
 
 }
 
@@ -70,6 +70,7 @@ void temperatura(){
 }
 
 void prob_chuva(){
+  // Cálculo simplificado da probabilidade de chuva
   p_chuva = 0.00;
   if(v_umh > 70.00 && v_tmp > -4 && v_tmp < 10){    
       p_chuva = 20.00;
